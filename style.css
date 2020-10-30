@@ -8,7 +8,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     background-color: darkblue;
@@ -21,7 +22,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     background-color: darkblue;
@@ -34,7 +36,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     background-color: darkblue;
