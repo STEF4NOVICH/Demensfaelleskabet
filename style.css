@@ -36,6 +36,11 @@ body {
     cursor:pointer;
 }
 
+.div > a {
+    text-decoration: none; 
+    list-style: none;
+}
+
 .link:after{
     content: '';
     position:absolute;
