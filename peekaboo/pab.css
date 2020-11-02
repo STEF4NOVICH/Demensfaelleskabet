@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+div#peekaboo{
+    position:fixed;
+    bottom:0px;
+    right:-420px;
+    background: #bccfda;
+    padding:25px;
+    margin-bottom: 20px;
+    height:200px;
+    font-size:36px;
+    font-weight: bold;
+    text-align: center;
+    color: #587471;
+}
+#pab_form input{
+    margin-top: 10px;
+    font-weight: normal;
+    border: 1px solid #bccfda;
+}
+.form_email {
+    clear: both;
+    border: none;
+    width: 100%;
+    padding: 8px 0;
+    text-indent: 2%;
+}
+.button {
+    clear: both;
+    border: none;
+    transition: all 0.23s ease-in-out 0s;
+    background-color: #587471;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-size: normal;
+    margin: 0 5px 10px 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: auto;
+    height: 36px;
+    padding: 2px 40px 0 40px;
+}
