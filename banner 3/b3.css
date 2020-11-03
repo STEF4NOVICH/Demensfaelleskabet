@@ -17,8 +17,9 @@ body {
 
 /* banner assets*/
 
-.hjerte > #hjerte {
+.hjerte{
     color: #C22928;
+    opacity: 1;
 }
 
 .logo {
@@ -52,7 +53,7 @@ h1{
 
 span{
     opacity: 0;
-    transition: all 0.9s ease;
+    transition: all 0.1s ease;
 }
 
 span.fade{
