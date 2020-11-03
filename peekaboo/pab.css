@@ -23,7 +23,7 @@ div#peekaboo{
     border: 1px solid #ffffff;
     width: 345px;
 }
-.button {
+.pab_button {
     clear: both;
     border: none;
     transition: all 0.23s ease-in-out 0s;
