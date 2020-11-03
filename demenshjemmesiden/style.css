@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 
-
 img {
     width: 100%;
 }
 
-
-
 body {
     font-family: 'Poppins', sans-serif;
-    color:#698684;
+    color:#374a48;
 }
 
 .logo {
@@ -34,7 +31,6 @@ nav {
     align-items: flex-end; 
     padding-left: 23rem; 
 }
-
 
 .nav-links li {
     list-style: none;
@@ -57,13 +53,11 @@ nav {
     max-width: 1650px;
 }
 
-
 .site-main h1 {
     padding-top: 10px;
     font-size: 50px;
     font-weight: 300;
 }
-
 
 .site-main h3 {
     padding: 10px 0 20px;
@@ -71,14 +65,11 @@ nav {
     font-weight: 300;
 }
 
-
 .site-main p {
     padding: 5px 0 20px;
     font-size: 20px;
     font-weight: 300;
 }
-
-
 
 .nyhedsbrev-wrapper {
     margin-top: 50px;
@@ -86,7 +77,6 @@ nav {
     padding-right: 500px;
     background-color: #BCCFDA ;
 }
-
 
 .nyhedsbrev {
     display: flex;
@@ -100,7 +90,6 @@ nav {
     padding-left: 30px;
     
 }
-
 
 .tilmeld {   
     margin-top: 10px;
@@ -120,5 +109,6 @@ nav {
 
 .alzheimerlogo {
     padding-top: 50px;
-    
 }
+
+
