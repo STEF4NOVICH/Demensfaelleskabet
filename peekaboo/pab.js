@@ -1,3 +1,4 @@
+/* ved at scroll ned kommer peekaboo frem */
 function yScrollHandler() {
     var win = document.getElementById("peekaboo");
     if ((window.pageYOffset + window.innerHeight) >= document.body.offsetHeight) {
@@ -11,8 +12,16 @@ function yScrollHandler() {
 }
 window.onscroll = yScrollHandler;
 
+/*  */
+window.onload = function () {
+    document.getElementById('close').onclick = function () {
+        this.parentNode.parentNode.parentNode
+            .removeChild(this.parentNode.parentNode);
+        return false;
+    };
+};
 
-/* Teksten inde i formen bliver sort når der skrives navn eller email */
+/* teksten inde i formen bliver sort når der skrives navn eller email */
 function inputFocus(i) {
     if (i.value == i.defaultValue) { i.value = ""; i.style.color = "#000000"; }
 }

@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     /* height: 800px = peekaboo fremvises efter 800px */
     height: 800px;
+    background: gray;
 }
 div#peekaboo{
     position:fixed;
