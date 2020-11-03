@@ -17,7 +17,7 @@ body {
 
 /* banner assets*/
 
-.hjerte > #hjerte {
+#hjerte {
     color: #C22928;
 }
 
@@ -34,7 +34,7 @@ body {
     display: flex;
     width: 728px;
     height: 90px;
-    background-color: #BCCFDA;
+    background-color: white;
     color: #698684;
     font-size: 20px;
     margin-top: 10rem;
@@ -67,7 +67,7 @@ span.fade{
 
 
 .logo-text{
-    color: white;
+    color: #698684;
     margin-top: 3px;
     margin-left: 5px;
     font-size: 12px;
@@ -79,7 +79,7 @@ span.fade{
 .wrapper{
     position: relative;
     margin-left: 6em;
-    border: solid 3px; color: white;
+    border: solid 3px; color: #698684;
     height: 65px;
     width: 65px;
     margin-top: 13px;
