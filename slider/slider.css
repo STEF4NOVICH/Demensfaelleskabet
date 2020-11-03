@@ -6,9 +6,23 @@
     box-sizing: border-box;
 }
 
+/* style til den ul jeg har indsat på hjemmesiden */
+.vi-tilbyder {
+    padding: 5px 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 25px;
+}
+
+/* MIDLERTIDIG TEST overwrite for at fjerne padding-left fra demenshjemmesiden index kode, og midlertidigt centrere indholdet ift. min egen skærm... */
+.site-section {
+    padding-left: 0;
+    margin: 0 160px 0 160px;
+}
+
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
@@ -24,12 +38,11 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
     padding: 16px;
-    color: red;
+    color: #698684;
     font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
+    font-size: 50px;
+    transition: 0.2s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
@@ -42,13 +55,14 @@
 
 /* Ved hover, tilføj en lidt gennemsigtig sort baggrundsfarve */
 .prev:hover, .next:hover {
-    background-color: rgba (0,0,0,0.8);
+    color: #BCCFDA;
 }
 
 /* Tekst til billed-captions */
 .text {
-    color: black;
-    font-size: 15px;
+    color: #BCCFDA;
+    font-size: 20px;
+    font-weight: 300;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -57,8 +71,8 @@
 }
 
 .numbertext {
-    color: blueviolet;
-    font-size: 12px;
+    color: #BCCFDA;
+    font-size: 18px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -69,13 +83,17 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #698684;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.2s ease;
 }
 
-.active, .dot:hover {
-    background-color: chocolate;
+.active {
+    background-color: #374a48;
+}
+
+.dot:hover {
+    background-color: #BCCFDA;
 }
 
