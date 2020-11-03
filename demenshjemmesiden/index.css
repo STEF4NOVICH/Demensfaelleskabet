@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
+    
+
 
 .site-header {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 22rem;
+    padding-right: 50px;
+    margin-left: 15%;
 }
 
 nav {
@@ -21,20 +24,19 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #bccfda;
+    background-color: #BCCFDA;
+    color: #698684;
     font-family: "Poppins", sans-serif;
 }
 
 
 .nav-links {
     display: flex;
-    justify-content: space-around;
-    width: 40%;
+    width: 60%;
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 1s;
     text-decoration: none;
-
 }
 
 .nav-links li {
@@ -46,11 +48,6 @@ nav {
     text-decoration: none;
     padding: 10px;
 }
-
-
-
-
-
 
 .burger {
     display: none;
@@ -70,6 +67,10 @@ nav {
         display: block;
         cursor: pointer;
     }
+
+    nav {
+        display: none;
+    }
 }
 
 .toggle .line1 {
@@ -84,3 +85,61 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+
+section {
+    max-width: 1500px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tekst > h1 {
+    padding: 40px 0 40px 0;
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+
+.tekst > h3 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tekst > p {
+    font-weight: 300;
+}
+
+.photos {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.nyhedsbrev-wrapper {
+    background-color: #BCCFDA;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.nyhedsbrev {
+    font-weight: 300;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: #587471;
+    color: white;
+    padding: 40px 50px 40px 50px;
+    
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
