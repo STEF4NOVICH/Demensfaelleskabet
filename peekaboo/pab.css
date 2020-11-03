@@ -20,6 +20,7 @@
     bottom: 22px;
     right: 27px;
     z-index: 9;
+    color: #587471;
   }
   
   /* typografien til formbeholderen */
@@ -27,7 +28,6 @@
     max-width: 300px;
     padding: 10px;
     background-color: #bccfda;
-    font-size: medium;
   }
   
   /* indtastningsfelter i fuld bredde */
@@ -47,7 +47,7 @@
   
   /* udseende til knappen send */
   .form-container .btn {
-    background-color: #4CAF50;
+    background-color: #48625E;
     color: white;
     padding: 16px 20px;
     border: none;
