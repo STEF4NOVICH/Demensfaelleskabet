@@ -1,0 +1,99 @@
+/* Stjernen herunder betyder, at det inden for tuborgklammerne rammer alt i css-dokumentet*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* style til den ul jeg har indsat på hjemmesiden */
+.vi-tilbyder {
+    padding: 5px 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 25px;
+}
+
+/* MIDLERTIDIG TEST overwrite for at fjerne padding-left fra demenshjemmesiden index kode, og midlertidigt centrere indholdet ift. min egen skærm... */
+.site-section {
+    padding-left: 0;
+    margin: 0 160px 0 160px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Skjul billederne som standard */
+.mySlides {
+    display: none;
+}
+
+/* Næste og forrige knapper */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: #698684;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.2s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+ /* specifik styling til næste knappen*/
+.next {
+    right: 0; /* placerer den helt til højre af skærmen */
+    border-radius: 3px 0 0 3px;
+}
+
+/* Ved hover, tilføj en lidt gennemsigtig sort baggrundsfarve */
+.prev:hover, .next:hover {
+    color: #BCCFDA;
+}
+
+/* Tekst til billed-captions */
+.text {
+    color: #BCCFDA;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #BCCFDA;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #698684;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.active {
+    background-color: #374a48;
+}
+
+.dot:hover {
+    background-color: #BCCFDA;
+}
+
