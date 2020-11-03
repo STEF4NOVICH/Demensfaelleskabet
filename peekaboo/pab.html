@@ -14,17 +14,18 @@
 <body>
     <h2>Demensfællesskabet Fyn</h2>
 
-    <div id="peekaboo">
-        <span id='close'>x</span>
-        Tilmeld nyhedsbrev
-        <form id="pab_form">
-            <input class="form" type="text" name="name" style="color:#888;" value="Navn" onfocus="inputFocus(this)"
-                onblur="inputBlur(this)" required>
-            <br>
-            <input class="form" type="text" placeholder="Email" name="name" style="color:#888;" value="Email"
-                onfocus="inputFocus(this)" onblur="inputBlur(this)" required>
+    <button class="open-button" onclick="openForm()">Nyhedsbrev</button>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Nyhedsbrev</h1>
+
+            <input type="text" placeholder="Navn" name="navn" required>
+            <input type="text" placeholder="Email" name="email" required>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
         </form>
-        <input class="pab_button" type="submit" value="Send">
     </div>
 </body>
 
