@@ -43,42 +43,59 @@ body {
     padding-left: 20px;
 }
 
-.banner2-container {
-    display: flex;
-    width: 728px;
-    height: 90px;
-    background-color: #FCFCFC;
-    color: #698684;
-    font-size: 20px;
-    margin-top: 10rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
+h1{
+    letter-spacing: -2px;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font: weight 400;
 }
 
-
-.logotext {
+.fulde-logo {
     display: flex;
     font-size: 11px;
-}
-
-.boks {
-    border: #698684 solid 2px;
-    border-radius: 10%;
-    width: 4rem;
-    height: 4rem;
-    margin: auto;
-
+    margin-left: 1.5rem;
 }
 
 
+.logo-text{
+    color: white;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 1.2em;
+}
 
+.wrapper{
+    position: relative;
+    margin-left: 6em;
+    border: solid 3px; color: white;
+    height: 65px;
+    width: 65px;
+    margin-top: 13px;
+}
 
+.content{
+    position: absolute;
+    bottom: -21%;
+    left: -5%;
+    transition: .5s ease;
+}
 
+.content a{
+    cursor: pointer;
+}
 
+.overlay{
+    opacity: 0;
+}
 
+.wrapper:hover img{
+    opacity: 1;
+}
 
-
+.wrapper:hover .overlay{
+    opacity: 1;
+}
 
 
 
