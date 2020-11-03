@@ -4,12 +4,11 @@ body{
 div#peekaboo{
     position:fixed;
     bottom: 0px;
-    right: -420px;
+    right: -452px;
     background: #bccfda;
     padding: 25px;
     margin-bottom: 20px;
     height: 200px;
-    widows: 150px;;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
@@ -19,14 +18,9 @@ div#peekaboo{
     margin-top: 10px;
     font-weight: normal;
     border: 1px solid #bccfda;
-    width: 150px;
-}
-.form_email {
-    clear: both;
-    border: none;
-    width: 100%;
-    padding: 8px 0;
-    text-indent: 2%;
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid #ccc;
 }
 .button {
     clear: both;
