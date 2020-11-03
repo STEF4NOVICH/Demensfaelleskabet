@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* height: 800px = peekaboo fremvises efter 800px */
+    height: 800px;
+}
+div#peekaboo{
+    position:fixed;
+    bottom: 0px;
+    right: -452px;
+    background: #bccfda;
+    padding: 25px;
+    margin-bottom: 20px;
+    height: 220px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #587471;
+}
+#pab_form input{
+    font-weight: normal;
+    border: 1px solid #bccfda;
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    width: 345px;
+}
+.button {
+    clear: both;
+    border: none;
+    transition: all 0.23s ease-in-out 0s;
+    background-color: #587471;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-size: normal;
+    margin: 0 5px 10px 0;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
+    height: 36px;
+    padding: 2px 40px 0 40px;
+}
