@@ -11,6 +11,8 @@ function yScrollHandler() {
 }
 window.onscroll = yScrollHandler;
 
+
+/* Teksten inde i formen bliver sort når der skrives navn eller email */
 function inputFocus(i) {
     if (i.value == i.defaultValue) { i.value = ""; i.style.color = "#000000"; }
 }
