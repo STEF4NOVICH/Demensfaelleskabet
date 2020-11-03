@@ -37,8 +37,6 @@ nav {
     padding-bottom: 40px;
     width: 70%;
     height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 1s;
     text-decoration: none;
     color: #374a48;
 }
@@ -52,7 +50,6 @@ nav {
     text-decoration: none;
     padding: 10px;
 }
-
 
 
 @media screen and (max-width: 768px) {
@@ -131,3 +128,10 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-wrapper {
+        display: block;
+    }
+}
+
