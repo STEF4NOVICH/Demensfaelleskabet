@@ -1,42 +1,68 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    /* height: 800px = peekaboo fremvises efter 800px */
-    height: 800px;
-}
-div#peekaboo{
-    position:fixed;
-    bottom: 0px;
-    right: -452px;
-    background: #bccfda;
-    padding: 25px;
-    margin-bottom: 20px;
-    height: 220px;
-    font-size: 36px;
-    font-weight: bold;
-    color: #587471;
-}
-#pab_form input{
-    font-weight: normal;
-    border: 1px solid #bccfda;
-    display: inline-block;
-    padding: 12px;
-    border: 1px solid #ffffff;
-    width: 345px;
-}
-.button {
-    clear: both;
-    border: none;
-    transition: all 0.23s ease-in-out 0s;
+/* knappen bruges til at åbne kontaktformularen - fastsat nederst på siden */
+.open-button {
     background-color: #587471;
-    color: #ffffff;
+    font-size: x-large;
+    color: white;
+    padding: 16px 20px;
+    border: none;
     cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
-    font-size: normal;
-    margin: 0 5px 10px 0;
-    text-align: left;
-    text-decoration: none;
-    width: auto;
-    height: 36px;
-    padding: 2px 40px 0 40px;
-}
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* pop-up-formularen - skjult som standard */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 22px;
+    right: 27px;
+    z-index: 9;
+    color: #587471;
+  }
+  
+  /* typografien til formbeholderen */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #bccfda;
+  }
+  
+  /* indtastningsfelter i fuld bredde */
+  .form-container input[type=text] {
+    width: 270px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* udseende til knappen send */
+  .form-container .btn {
+    background-color: #48625E;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* udseende til knappen luk */
+  .form-container .cancel {
+    background-color: #DB060C;
+  }
+  
+  /* hovereffekter til knapper */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

@@ -1,0 +1,53 @@
+/* Stjernen herunder betyder, at det inden for tuborgklammerne rammer alt i css-dokumentet*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Skjul billederne som standard */
+.mySlides {
+    display: none;
+}
+
+/* Næste og forrige knapper */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+ /* specifik styling til næste knappen*/
+.next {
+    right: 0; /* placerer den helt til højre af skærmen */
+    border-radius: 3px 0 0 3px;
+}
+
+/* Ved hover, tilføj en lidt gennemsigtig sort baggrundsfarve */
+.prev:hover, .next:hover {
+    background-color: rgba (0,0,0,0.8);
+}
+
+/* Tekst til billed-captions */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+}
