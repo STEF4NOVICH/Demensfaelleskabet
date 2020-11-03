@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    /* height: 800px = peekaboo fremvises efter 800px */
+    height: 800px;
 }
 div#peekaboo{
     position:fixed;
@@ -8,19 +10,18 @@ div#peekaboo{
     background: #bccfda;
     padding: 25px;
     margin-bottom: 20px;
-    height: 200px;
+    height: 220px;
     font-size: 36px;
     font-weight: bold;
-    text-align: center;
     color: #587471;
 }
 #pab_form input{
-    margin-top: 10px;
     font-weight: normal;
     border: 1px solid #bccfda;
     display: inline-block;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
+    width: 345px;
 }
 .button {
     clear: both;
@@ -33,9 +34,8 @@ div#peekaboo{
     font-size: 15px;
     font-size: normal;
     margin: 0 5px 10px 0;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    white-space: nowrap;
     width: auto;
     height: 36px;
     padding: 2px 40px 0 40px;
