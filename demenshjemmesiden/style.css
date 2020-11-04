@@ -69,11 +69,7 @@ nav {
 }
 
 
-@media screen and (max-width: 768px) {
-    nav {
-        display: none;
-    }
-}
+
 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -163,7 +159,42 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    
+    
     .footer-wrapper {
         display: block;
+        nav {
+        display: none;
+    }
+    }
+<<<<<<< HEAD
+}
+=======
+}
+
+<<<<<<< HEAD
+
+
+=======
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 80px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    section {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        padding: 15px;
+    }
+}
+>>>>>>> b25fa644258cff3618221c75944e6fd54ee309cb
+>>>>>>> cd8b02ad053272e0fa4a2a8114fa4bcb1826ee4d
