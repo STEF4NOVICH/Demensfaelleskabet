@@ -5,7 +5,6 @@
 }
 
 nav {
-    height: 12vh;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -18,19 +17,18 @@ nav {
 .nav-links {
     display: flex;
     padding-top: 59px;
-    list-style: none;
-    text-decoration: none;
 }
 
 .nav-lins a {
     background-color: black;
-    padding: 50px;
+    text-decoration: none;
 }
 
 
 
 .velkommen {
     padding-top: 50px;
+    text-decoration: none;
 }
 
 .velkommen:hover {
