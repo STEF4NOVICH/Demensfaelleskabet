@@ -30,7 +30,6 @@ body {
 }
 
 
-
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -39,8 +38,7 @@ body {
 
 .logo {
     width: 100%;
-    max-width: 500px;
-    padding-right: 40px;
+    max-width: 20px;
 }
 
 
@@ -134,8 +132,7 @@ nav {
     
     .nav-links li {
         opacity: 0;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 3.5rem;
     }
     
     .burger {
@@ -171,6 +168,8 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+
 
 
 
