@@ -7,29 +7,96 @@
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 15px;
+    }
 }
     
-
-
 .site-header {
     margin-top: 20px;
     max-width: 28rem;
     padding-right: 50px;
-    margin-left: 17%;
+    margin-left: 100px;
 }
+
+@media screen and (max-width: 1200px) {
+    .site-header {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .site-header {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .site-header {
+        margin-left: 15px;
+    }
+}
+
+/* Logo */
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo {
+        width: 75%;
+    }
+}
+
 
 nav {
     top: 0;
     height: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    padding-left: 100px;
     align-items: flex-end;
     min-height: 8vh;
     background-color: #BCCFDA;
     color: #698684;
 }
 
+@media screen and (max-width: 1200px) {
+    nav {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        padding-left: 15px;
+    }
+}
 
 .nav-links {
     display: flex;
@@ -51,8 +118,6 @@ nav {
 }
 
 
-
-
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -68,16 +133,33 @@ nav {
 
 section {
     max-width: 1500px;
-    padding: 100px;
+    padding: 60px 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 36px 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        padding: 18px 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        padding: 14px 15px;
+    }
+}
+
 .tekst > h1 {
-    padding: 40px 0 40px 0;
+    padding: 30px 0 8px 0;
     font-weight: 400;
     font-size: 50px;
-    
 }
 
 .tekst > h3 {
@@ -87,8 +169,34 @@ section {
     padding-bottom: 25px;
 }
 
-.tekst > p {
-    font-weight: 300;
+@media screen and (max-width: 1200px) {
+    .tekst h1 {
+        font-size: 42px;
+        padding: 28px 0 2px 0;
+    }
+    .tekst h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tekst h1 {
+        font-size: 35px;
+        padding: 8px 0 8px 0;
+    }
+    .tekst h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tekst h1 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .tekst h3 {
+        font-size: 20px;
+    }
 }
 
 .photos {
@@ -100,26 +208,26 @@ section {
 
 .nyhedsbrev-wrapper {
     background-color: #BCCFDA;
-    padding: 40px;
+    padding: 40px 0 40px 0;
     color: white;
     font-size: 20px;
 }
 
 .nyhedsbrev {
     font-weight: 300;
-    margin-left: 10%;
+    margin-left: 100px;
 }
 
-footer {
-    background-color: #587471;
-    color: white;
-    padding: 40px 50px 40px 50px;
-    
+@media screen and (max-width: 1200px) {
+    .nyhedsbrev {
+        margin-left: 80px;
+    }
 }
 
-.footer-wrapper {
-    display: flex;
-    justify-content: space-around;
+@media screen and (max-width: 800px) {
+    .nyhedsbrev {
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -135,19 +243,35 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    section {
-        padding: 80px;
+    footer {
+        padding-left: 80px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    section {
-        padding: 30px;
+    footer {
+        padding-left: 30px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    section {
-        padding: 15px;
+    footer {
+        padding-left: 15px;
+    }
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+    
+    .footer-wrapper {
+        display: block;
+        display: none;
     }
 }
