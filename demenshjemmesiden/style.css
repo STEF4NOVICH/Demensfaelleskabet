@@ -145,7 +145,7 @@ nav {
 @keyframes navLinkFade {
     from {
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateY(50px);
     }
     to {
         opacity: 1;
