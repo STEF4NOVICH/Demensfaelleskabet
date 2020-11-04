@@ -228,17 +228,16 @@ section {
     }
 }
 
-@media screen and (max-width: 550px) {
-    .nyhedsbrev {
-        margin-left: 15px;
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
     }
-}
-
-
-footer {
-    background-color: #587471;
-    color: white;
-    padding: 40px 50px 40px 100px;
+    
+    
+    .footer-wrapper {
+        
+            display: block;   
+        }
 }
 
 @media screen and (max-width: 1200px) {
