@@ -51,11 +51,7 @@ nav {
 }
 
 
-@media screen and (max-width: 768px) {
-    nav {
-        display: none;
-    }
-}
+
 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -127,8 +123,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    
+    
     .footer-wrapper {
         display: block;
+        nav {
+        display: none;
+    }
     }
 }
+
+
 
