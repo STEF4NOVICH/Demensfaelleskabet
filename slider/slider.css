@@ -85,8 +85,27 @@
 /* Style til ul under øvrig tekst på Om centret */
 .vi-tilbyder {
     padding: 5px 0 20px;
+    font-size: 20px;
     font-weight: 300;
     padding-left: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .vi-tilbyder {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .vi-tilbyder {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .vi-tilbyder {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
