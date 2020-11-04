@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: #BCCFDA;
+    align-content: flex-start;
+    text-decoration: none;
+    
+}
+
+.nav-links {
+    display: flex;
+    padding-top: 59px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-lins a {
+    background-color: black;
+    padding: 50px;
+}
+
+
+
+.velkommen {
+    padding-top: 50px;
+}
+
+.velkommen:hover {
+    background-color: black;
+    position: relative;
+}
+
+
+
+.aktiviteter {
+    padding-top: 50px;
+}
+
+.aktiviteter:hover {
+    background-color: black;
+    position: relative;
+}
+
+
+
+
+.rådgivning {
+    padding-top: 50px;
+}
+
+.rådgivning:hover {
+    background-color: black;
+    position: relative;
+}
+
+
+.frivillig {
+    padding-top: 50px;
+}
+
+.frivillig:hover {
+    background-color: black;
+    position: relative;
+}
+
+.om-centret {
+    padding-top: 50px;
+}
+
+.om-centret:hover {
+    background-color: black;
+    position: relative;
+}
+
+
+.kontakt {
+    padding-top: 50px;
+}
+
+.kontakt:hover {
+    background-color: black;
+    position: relative;
+}
+
+
+

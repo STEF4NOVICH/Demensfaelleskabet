@@ -129,17 +129,11 @@ footer {
     
     
     .footer-wrapper {
-        display: block;
-        nav {
-        display: none;
-    }
-    }
+        
+            display: block;   
+        }
 }
 
-<<<<<<< HEAD
-
-
-=======
 @media screen and (max-width: 1200px) {
     section {
         padding: 80px;
@@ -157,4 +151,3 @@ footer {
         padding: 15px;
     }
 }
->>>>>>> b25fa644258cff3618221c75944e6fd54ee309cb
