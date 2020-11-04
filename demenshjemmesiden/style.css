@@ -16,7 +16,25 @@ body {
     margin-top: 20px;
     max-width: 28rem;
     padding-right: 50px;
-    margin-left: 17%;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .site-header {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .site-header {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .site-header {
+        margin-left: 15px;
+    }
 }
 
 nav {
@@ -77,6 +95,24 @@ section {
     margin-right: auto;
 }
 
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        padding: 15px;
+    }
+}
+
 .tekst > h1 {
     padding: 40px 0 40px 0;
     font-weight: 400;
@@ -129,23 +165,5 @@ footer {
 @media screen and (max-width: 768px) {
     .footer-wrapper {
         display: block;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    section {
-        padding: 80px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    section {
-        padding: 30px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    section {
-        padding: 15px;
     }
 }
