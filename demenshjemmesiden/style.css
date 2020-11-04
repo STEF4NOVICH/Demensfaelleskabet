@@ -33,7 +33,7 @@ body {
     margin-top: 20px;
     max-width: 28rem;
     padding-right: 50px;
-    margin-left: 100px;
+    margin-left: 160px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -73,7 +73,7 @@ nav {
     height: 150px;
     display: flex;
     justify-content: left;
-    padding-left: 100px;
+    padding-left: 160px;
     align-items: flex-end;
     min-height: 8vh;
     background-color: #BCCFDA;
@@ -131,7 +131,7 @@ nav {
 }
 
 section {
-    padding: 60px 100px;
+    padding: 60px 160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -213,7 +213,7 @@ section {
 
 .nyhedsbrev {
     font-weight: 300;
-    margin-left: 100px;
+    margin-left: 160px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -238,6 +238,10 @@ section {
         
             display: block;   
         }
+}
+
+footer {
+    padding-left: 160px;
 }
 
 @media screen and (max-width: 1200px) {
