@@ -6,20 +6,6 @@
     box-sizing: border-box;
 }
 
-/* style til den ul jeg har indsat på hjemmesiden */
-.vi-tilbyder {
-    padding: 5px 0 20px;
-    font-size: 20px;
-    font-weight: 300;
-    padding-left: 25px;
-}
-
-/* MIDLERTIDIG TEST overwrite for at fjerne padding-left fra demenshjemmesiden index kode, og midlertidigt centrere indholdet ift. min egen skærm... */
-/* .site-section {
-    padding-left: 0;
-    margin: 0 160px 0 160px;
-} */
-
 /* Slideshow container */
 .slideshow-container {
     max-width: 100%;
@@ -43,7 +29,6 @@
     font-weight: bold;
     font-size: 50px;
     transition: 0.2s ease;
-    border-radius: 0 3px 3px 0;
     user-select: none;
 }
 
@@ -97,3 +82,30 @@
     background-color: #BCCFDA;
 }
 
+/* Style til ul under øvrig tekst på Om centret */
+.vi-tilbyder {
+    padding: 5px 0 20px;
+    font-weight: 300;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .prev, .next {
+        top: 42%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .prev, .next {
+        top: 38%;
+        font-size: 35px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .prev, .next {
+        padding: 5px;
+    }
+}

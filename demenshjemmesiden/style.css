@@ -132,3 +132,20 @@ footer {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        padding: 15px;
+    }
+}
