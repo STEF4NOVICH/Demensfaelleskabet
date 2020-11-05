@@ -82,4 +82,8 @@ document.querySelector(".next").addEventListener("click",() => {
 
 renderCalendar();
 
+function click() {
+    document.getElementById("demo").innerHTML = "Hello World";
+  }
+
 //Code and Create//
