@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*banner1*/
+
+.spm h1{
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: #698684;
+    margin-left: 10vh;
+}
+
+#hjerte{
+    color: #C22928;
+}
+
+.textOgLogo img{
+    width: 275px;
+    height: 30px;
+}
+
+.bannerContainer1{
+    background-color: #BCCFDA;
+    width: 728px;
+    height: 90px;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10vh;
+    
+}
+
+.fuldeLogo{
+    display: flex;
+    align-content: center;
+    margin-left: 10vh;
+    
+}
+
+.logoText{
+    font-size: 11px;
+    color: white;
+    padding-left: 1em;
+}
+
+.logoText > p{
+    line-height: 1em;
+    margin-top: 4px;
+}
+
+
+
+.wrapper1{
+    position: relative;
+    margin-left: 7em;
+    border: solid 3px; color: white;
+    height: 65px;
+    width: 65px;
+    margin-top: 13px;
+}
+
+.content{
+    position: absolute;
+    bottom: -21%;
+    left: -5%;
+    transition: .5s ease;
+}
+
+.content a{
+    cursor: pointer;
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.wrapper1:hover img{
+    opacity: 1;
+}
+
+.wrapper1:hover .overlay{
+    opacity: 1;
+}
+
+
+/*Banner2*/
+
+.spm h1{
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: #698684;
+    margin-left: 10vh;
+}
+
+#hjerte{
+    color: #C22928;
+}
+
+.textOgLogo img{
+    width: 275px;
+    height: 30px;
+}
+
+.bannerContainer2{
+    background-color:white;
+    width: 728px;
+    height: 90px;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10vh;
+    
+}
+
+.fuldeLogo{
+    display: flex;
+    align-content: center;
+    margin-left: 10vh;
+    
+}
+
+.logoText2{
+    font-size: 11px;
+    color: #698684;
+    padding-left: 1em;
+}
+
+.logoText > p{
+    line-height: 1em;
+    margin-top: 4px;
+}
+
+
+
+.wrapper2{
+    position: relative;
+    margin-left: 7em;
+    border: solid 3px; color:  #698684;
+    height: 65px;
+    width: 65px;
+    margin-top: 13px;
+}
+.myBanners {
+    display: none;
+}
+
+span{
+    opacity: 0;
+    transition: all 0.1s ease;
+}
+
+span.fade{
+    opacity: 1;
+}
