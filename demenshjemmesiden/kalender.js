@@ -81,7 +81,7 @@ function loadCalendarDays() {
                 selectedDays.splice(selectedDays.indexOf(this.dataset.day), 1);
 
                 function dosomething() {
-                    alert("Brød");
+                    alert("Brætspil og kaffe i cafen");
                 }
                     dosomething();
         });
