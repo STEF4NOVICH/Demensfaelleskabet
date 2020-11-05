@@ -1,0 +1,71 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+/* knappen bruges til at åbne kontaktformularen - fastsat nederst på siden */
+.open-button {
+    background-color: #587471;
+    font-size: x-large;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* pop-up-formularen - skjult som standard */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 22px;
+    right: 27px;
+    z-index: 9;
+    color: #587471;
+  }
+  
+  /* formbeholderen */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #bccfda;
+  }
+  
+  /* indtastningsfelter i fuld bredde - ikke aktiv tekstboks */
+  .form-container input[type=text] {
+    width: 270px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+  }
+  
+  /* indtastningsfelter i fuld bredde - aktiv tekstboks */
+  .form-container input[type=text]:focus {
+    background-color: rgb(209, 209, 209);
+    outline: none;
+  }
+  
+  /* udseende til knappen send */
+  .form-container .btn {
+    background-color: #48625E;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* udseende til knappen luk */
+  .form-container .cancel {
+    background-color: #DB060C;
+  }
+  
+  /* hovereffekter til knapper */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

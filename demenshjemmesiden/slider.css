@@ -1,0 +1,130 @@
+/* Stjernen herunder betyder, at det inden for tuborgklammerne rammer alt i css-dokumentet*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Skjul billederne som standard */
+.mySlides {
+    display: none;
+}
+
+/* Næste og forrige knapper */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: #698684;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.2s ease;
+    user-select: none;
+}
+
+ /* specifik styling til næste knappen*/
+.next {
+    right: 0; /* placerer den helt til højre af skærmen */
+    border-radius: 3px 0 0 3px;
+}
+
+/* Ved hover, tilføj en lidt gennemsigtig sort baggrundsfarve */
+.prev:hover, .next:hover {
+    color: #BCCFDA;
+}
+
+/* Tekst til billed-captions */
+.text {
+    color: #BCCFDA;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #BCCFDA;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #698684;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.active {
+    background-color: #374a48;
+}
+
+.dot:hover {
+    background-color: #BCCFDA;
+}
+
+/* Style til ul under øvrig tekst på Om centret */
+.vi-tilbyder {
+    padding: 5px 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .vi-tilbyder {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .vi-tilbyder {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .vi-tilbyder {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .prev, .next {
+        top: 42%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .prev, .next {
+        top: 38%;
+        font-size: 35px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .prev, .next {
+        padding: 5px;
+    }
+}
