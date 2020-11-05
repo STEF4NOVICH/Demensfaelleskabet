@@ -330,7 +330,8 @@ footer {
 
 
 .kontakt-os {
-    padding: 20px
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .kontakt-os h4 {
@@ -338,12 +339,11 @@ footer {
 }
 
 .genveje {
+    padding-top: 20px;
+
     
 }
 
-.genveje h4 {
-    padding-bottom: 10px;
-}
 
 
 .alzheimerlogo {
@@ -358,6 +358,7 @@ footer {
 }
 
 .alzheimerlogo {
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,5 +377,9 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-right: 80px;
+    }
+
+    .footer-links {
+        margin-left: 5px;
     }
 }
