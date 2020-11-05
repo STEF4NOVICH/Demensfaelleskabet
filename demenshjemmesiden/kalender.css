@@ -15,7 +15,7 @@ body, *{
     display: none;
     position: absolute;
     background-color: #fff;
-    color: #1caff6;
+    color: #BCCFDA;
     text-align: center;
     font-size: 14pt;
     padding-top: 5px;
@@ -53,7 +53,7 @@ body, *{
 .calendar .calendar-btn
 {
     float: left;
-    background-color: #24aeff;
+    background-color: #374a48;
     color: white;
     text-align: center;
     font-size: 14pt;
