@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*banner1*/
+
+.spm h1{
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #698684;
+    margin-left: 10vh;
+}
+
+#hjerte{
+    color: #C22928;
+}
+
+.textOgLogo img{
+    width: 275px;
+    height: 30px;
+}
+
+.bannerContainer1{
+    background-color: white;
+    width: 728px;
+    height: 90px;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10vh;
+    
+}
+
+.fuldeLogo{
+    display: flex;
+    align-content: center;
+    margin-left: 10vh;
+    
+}
+
+.logoText{
+    font-size: 11px;
+    color: #698684;
+    padding-left: 1em;
+}
+
+.logoText > p{
+    line-height: 1em;
+    margin-top: 4px;
+}
+
+
+
+.btn a{
+    border: solid 4px; color: #698684;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-size: 26px;
+    line-height: 22px;
+    position: absolute;
+    left: 65%;
+    top: 12%;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    color: #698684;
+    box-shadow: inset 0 0 0 0 #698684;
+    transition: ease-out 0.3s;
+    
+}
+
+.btn a:hover{
+    box-shadow: inset 200px 0 0 0 #698684; 
+    color: white;  
+     
+    
+}
