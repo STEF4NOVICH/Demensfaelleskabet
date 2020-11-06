@@ -16,7 +16,7 @@ body{
     font-weight: 400;
     letter-spacing: -1px;
     color: #698684;
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 #hjerte{
@@ -33,15 +33,15 @@ body{
     width: 728px;
     height: 90px;
     display: flex;
-    margin-left: 30vh;
-    margin-top: 10vh;
+    margin-left: 25%;
+    margin-top: 15%;
     
 }
 
 .fuldeLogo{
     display: flex;
     align-content: center;
-    margin-left: 10vh;
+    margin-left: 5vh;
     
 }
 
@@ -58,6 +58,7 @@ body{
 
 
 
+
 .btn a{
     border: solid 4px; color: #698684;
     border-radius: 10px;
@@ -65,9 +66,10 @@ body{
     letter-spacing: -1px;
     font-size: 26px;
     line-height: 22px;
-    position: absolute;
-    left: 65%;
-    top: 12%;
+    position: fixed;
+    width: 125px;
+    left: 63%;
+    top: 27.3%;
     background-color: white;
     padding-top: 0.5rem;
     padding-bottom: 0.7rem;
