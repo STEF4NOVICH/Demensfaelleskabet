@@ -49,7 +49,6 @@ body {
         max-width: 220px;
         margin-left: 10px;
     }
-
 }
 
 
@@ -58,7 +57,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: flex-end;
-    min-height: 11vh;
+    height: 11vh;
     background-color: #BCCFDA;
 }
 
@@ -127,8 +126,8 @@ nav {
     .nav-links {
         position: fixed;
         right: 0px;
-        height: 94vh;
-        top: 10vh;
+        top: 6rem;
+        height: 99vh;
         background-color: rgba(0, 0, 0, 0.911);
         display: flex;
         flex-direction: column;
@@ -297,22 +296,6 @@ section {
 
 
 
-@media screen and (max-width: 1200px) {
-    .nyhedsbrev {
-        margin-left: 80px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .nyhedsbrev {
-        margin-left: 30px;
-    }
-}
-
-
-
-
-
 footer {
     background-color: #698684;
     color: white;
@@ -380,6 +363,6 @@ footer {
     }
 
     .footer-links {
-        margin-left: 5px;
+        margin-left: 20px;
     }
 }
