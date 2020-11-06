@@ -313,7 +313,7 @@ footer {
 
 
 .kontakt-os {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 
@@ -336,8 +336,16 @@ footer {
 }
 
 .footer-links {
-    margin-left: 50px;
-    
+    margin-left: 50px;    
+}
+
+.footer-links li {
+    list-style: circle;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
 }
 
 .alzheimerlogo {
@@ -346,6 +354,10 @@ footer {
     flex-direction: column;
     align-items: center;
     max-width: 150px; 
+}
+
+.alzheimerlogo img {
+    padding: 20px;
 }
 
 

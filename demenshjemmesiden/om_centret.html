@@ -1,169 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>om centret for demens</title>
-    <link rel="stylesheet" href="../demenshjemmesiden/style.css">
-    <link rel="stylesheet" href="/demenshjemmesiden/slider.css">
-    <link rel="stylesheet" href="/demenshjemmesiden/pab.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <header>
-      <div class="site-header">
-        <img class="logo" src="/demenshjemmesiden/Billeder/demensfaellesskabet-fyn-logo.svg" alt="" />
-        <div>
-          <div class="menu">
-            <h1>MENU</h1>
-          </div>
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-        </div>
-      </div>
-      <nav>
-        <ul class="nav-links">
-          <li>
-            <a href="/demenshjemmesiden/index.html">Velkommen</a>
-          </li>
-          <li>
-            <a href="aktiviteter.html">Aktiviteter</a>
-          </li>
-          <li>
-            <a href="#">Rådgivning</a>
-          </li>
-          <li>
-            <a href="#">Frivillig</a>
-          </li>
-          <li>
-            <a href="/demenshjemmesiden/om_centret.html">Om centret</a>
-          </li>
-          <li>
-            <a href="#">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="Om centret" content="Et rådgivnings- og aktivitetscenter
+  Demensfællesskabet Fyn er et rådgivnings- og aktivitetscenter med aktivitetstilbud for mennesker med demens i tidligt stadie og deres pårørende.">
+  
+  
+  <title>om centret for demens</title>
 
 
+  <link rel="stylesheet" href="../demenshjemmesiden/style.css">
+  <link rel="stylesheet" href="/demenshjemmesiden/slider.css">
+  <link rel="stylesheet" href="/demenshjemmesiden/pab.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="site-header">
+      <img class="logo" src="/demenshjemmesiden/Billeder/demensfaellesskabet-fyn-logo.svg" alt="" />
       <div>
-        <button class="open-button" onclick="openForm()">Nyhedsbrev</button>
-        <div class="form-popup" id="myForm">
-            <form action="/action_page.php" class="form-container">
-                <h1>Nyhedsbrev</h1>
-    
-                <input type="text" placeholder="Dit navn" name="navn" required>
-                <input type="text" placeholder="Din mail" name="email" required>
-    
-                <button type="submit" class="btn">Send</button>
-                <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
-            </form>
+        <div class="menu">
+          <h1>MENU</h1>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
       </div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li>
+          <a href="/demenshjemmesiden/index.html">Velkommen</a>
+        </li>
+        <li>
+          <a href="aktiviteter.html">Aktiviteter</a>
+        </li>
+        <li>
+          <a href="#">Rådgivning</a>
+        </li>
+        <li>
+          <a href="#">Frivillig</a>
+        </li>
+        <li>
+          <a href="/demenshjemmesiden/om_centret.html">Om centret</a>
+        </li>
+        <li>
+          <a href="#">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div>
+    <button class="open-button" onclick="openForm()">Nyhedsbrev</button>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Nyhedsbrev</h1>
+
+        <input type="text" placeholder="Dit navn" name="navn" required>
+        <input type="text" placeholder="Din mail" name="email" required>
+
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+      </form>
+    </div>
+  </div>
 
 
 
-    
-    <main>
-      <section>
-        <div class="tekst">
-            <!-- START på undersiden "Om centret" -->
-            <h1>Om centret</h1>
-            <h3>Hvad vil det sige at være medlem af foreningen?</h3>
 
-            <!-- START på slider kode-->
-            <div class="slideshow-container">
-              
-                <!-- Billeder med billednummer og caption tekst, alle med width 100% -->
-                <div class="mySlides">
-                    <div class="numbertext">1/3</div>
-                    <img src="Billeder/quakka-1.jpg" alt="quakka 1" style="width:100%">
-                    <div class="text">Quakkas er glade dyr.</div>
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">2/3</div>
-                    <img src="Billeder/quakka-2.jpg" alt="quakka 2" style="width:100%">
-                    <div class="text">Eller også planlægger de at slå dig ihjel, er ikke helt sikker...</div>
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">3/3</div>
-                    <img src="Billeder/quakka-3.jpg" alt="quakka 3" style="width:100%">
-                    <div class="text">Eller også sidder dens ansigt bare fast.</div>
-                </div>
-            
-            <!-- Næste og forrige knapper -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            
-            <!-- Prikkerne under slideshowet, der indikerer hvilket billede i rækken, du er på-->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-            <!-- SLUT på slider kode -->
+  <main>
+    <section>
+      <div class="tekst">
+        <!-- START på undersiden "Om centret" -->
+        <h1>Om centret</h1>
+        <h3>Hvad vil det sige at være medlem af foreningen?</h3>
 
-            <!-- START Om centret øvrig tekst -->
-            <h3>Et rådsgivnings- og aktivitetscenter</h3>
-            <p>Demensfællesskabet Fyn er et rådgivnings- og aktivitetscenter med aktivitetstilbud for mennesker med demens i tidligt stadie og deres pårørende.
-                <br/>Vi er et selvejende værested og ikke et visiteret tilbud.
-                <br/><br/>Centeret er overordnet drevet af en bestyrelse og en centerleder til daglig drift. Derudover er der adskillige frivillige tilknyttet samt pårørende og fagpersoner.
-                <br/><br/>Formålet med Rådgivnings- og aktivitetscentret er, at skabe et inkluderende fællesskab hvor meningsfulde aktiviteter og rådgivning er i naturligt samspil og udvikling. Sammen skaber vi nye muligheder og indholdsrige aktiviteter for hjemmeboende personer med demens og deres pårørende.</p>
-            <h3>Vi tilbyder</h3>
-            <ul class="vi-tilbyder">
-                <li>Virksomhedsbesøg</li>
-                <li>Oplæg til uddannelsesinstitutioner, fagpersoner og foreninger om ”livet med demens”</li>
-                <li>Bogsalg</li>
-            </ul>
-            <p>Kontakt centeret for pris.<br/><br/> Du kan bestille badge med "jeg har demens" eller "jeg har Alzheimers" via mail demenfaellesskabetfyn@gmail.com
-            <br/>Pris 25 kr. per styk plus porto - betales via MobilePay</p>
-            <!-- SLUT Om centret øvrig tekst -->
-      </section>
+        <!-- START på slider kode-->
+        <div class="slideshow-container">
 
-
-      <footer>
-        <div class="footer-wrapper">
-          <div class="kontakt-os">
-            <h4>Kontakt os</h4>
-            <p>Skibhusvej 52 B 2</p>
-            <p>5000 Odense C</p>
-            <p>+45 66 19 40 91</p>
+          <!-- Billeder med billednummer og caption tekst, alle med width 100% -->
+          <div class="mySlides">
+            <div class="numbertext">1/3</div>
+            <img src="Billeder/quakka-1.jpg" alt="quakka 1" style="width:100%">
+            <div class="text">Quakkas er glade dyr.</div>
           </div>
-          <div>
-            <h4 class="genveje">Genveje</h4>
-            <ul class="footer-links">
-              <li>Velkommen</li>
-              <li>Aktiviter</li>
-              <li>Rådgivning</li>
-              <li>Frivillig</li>
-              <li>Om centret</li>
-              <li>Kontakt</li>
-            </ul>
+
+          <div class="mySlides">
+            <div class="numbertext">2/3</div>
+            <img src="Billeder/quakka-2.jpg" alt="quakka 2" style="width:100%">
+            <div class="text">Eller også planlægger de at slå dig ihjel, er ikke helt sikker...</div>
           </div>
-          <div class="alzheimerlogo">
-            <img src="/demenshjemmesiden/Billeder/alzheimerAlogo.svg" alt="">
-            <p>www.alzheimers.dk</p>
 
+          <div class="mySlides">
+            <div class="numbertext">3/3</div>
+            <img src="Billeder/quakka-3.jpg" alt="quakka 3" style="width:100%">
+            <div class="text">Eller også sidder dens ansigt bare fast.</div>
           </div>
-      </footer>
+
+          <!-- Næste og forrige knapper -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Prikkerne under slideshowet, der indikerer hvilket billede i rækken, du er på-->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <!-- SLUT på slider kode -->
+
+        <!-- START Om centret øvrig tekst -->
+        <h3>Et rådsgivnings- og aktivitetscenter</h3>
+        <p>Demensfællesskabet Fyn er et rådgivnings- og aktivitetscenter med aktivitetstilbud for mennesker med demens i
+          tidligt stadie og deres pårørende.
+          <br />Vi er et selvejende værested og ikke et visiteret tilbud.
+          <br /><br />Centeret er overordnet drevet af en bestyrelse og en centerleder til daglig drift. Derudover er
+          der adskillige frivillige tilknyttet samt pårørende og fagpersoner.
+          <br /><br />Formålet med Rådgivnings- og aktivitetscentret er, at skabe et inkluderende fællesskab hvor
+          meningsfulde aktiviteter og rådgivning er i naturligt samspil og udvikling. Sammen skaber vi nye muligheder og
+          indholdsrige aktiviteter for hjemmeboende personer med demens og deres pårørende.</p>
+        <h3>Vi tilbyder</h3>
+        <ul class="vi-tilbyder">
+          <li>Virksomhedsbesøg</li>
+          <li>Oplæg til uddannelsesinstitutioner, fagpersoner og foreninger om ”livet med demens”</li>
+          <li>Bogsalg</li>
+        </ul>
+        <p>Kontakt centeret for pris.<br /><br /> Du kan bestille badge med "jeg har demens" eller "jeg har Alzheimers"
+          via mail demenfaellesskabetfyn@gmail.com
+          <br />Pris 25 kr. per styk plus porto - betales via MobilePay</p>
+        <!-- SLUT Om centret øvrig tekst -->
+    </section>
+
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="kontakt-os">
+          <h4>Kontakt os</h4>
+          <p>Skibhusvej 52 B 2</p>
+          <p>5000 Odense C</p>
+          <p>+45 66 19 40 91</p>
+        </div>
+        <div class="genveje">
+          <h4>Genveje</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="/demenshjemmesiden/index.html">Velkommen</a>
+            </li>
+            <li>
+              <a href="/demenshjemmesiden/aktiviteter.html">Aktiviteter</a>
+            </li>
+            <li>
+              <a href="#">Rådgivning</a>
+            </li>
+            <li>
+              <a href="#">Frivillig</a>
+            </li>
+            <li>
+              <a href="/demenshjemmesiden/om_centret.html">Om centret</a>
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+        <div class="alzheimerlogo">
+          <img src="/demenshjemmesiden/Billeder/alzheimerAlogo.svg" alt="">
+          <p>www.alzheimers.dk</p>
+
+        </div>
+
+    </footer>
 
 
 
-    </main>
+  </main>
 
 
 
-    <script src="/demenshjemmesiden/slider.js" defer></script>
-    <script src="/demenshjemmesiden/navbarscript.js"></script>
-    <script src="/demenshjemmesiden/pab.js"></script>
+  <script src="/demenshjemmesiden/slider.js" defer></script>
+  <script src="/demenshjemmesiden/navbarscript.js"></script>
+  <script src="/demenshjemmesiden/pab.js"></script>
 
-    
-  </body>
+
+</body>
+
 </html>
