@@ -16,7 +16,7 @@ body{
     font-weight: 400;
     letter-spacing: -1px;
     color: #698684;
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 #hjerte{
@@ -33,15 +33,15 @@ body{
     width: 728px;
     height: 90px;
     display: flex;
-    margin-left: 30vh;
-    margin-top: 10vh;
+    margin-left: 25%;
+    margin-top: 15%;
     
 }
 
 .fuldeLogo{
     display: flex;
     align-content: center;
-    margin-left: 10vh;
+    margin-left: 5vh;
     
 }
 
@@ -98,7 +98,7 @@ body{
     font-weight: 400;
     letter-spacing: -3px;
     color: #698684;
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 #hjerte{
@@ -115,15 +115,15 @@ body{
     width: 728px;
     height: 90px;
     display: flex;
-    margin-left: 30vh;
-    margin-top: 10vh;
+    margin-left: 25%;
+    margin-top: 15%;
     
 }
 
 .fuldeLogo{
     display: flex;
     align-content: center;
-    margin-left: 10vh;
+    margin-left: 5vh;
     
 }
 
