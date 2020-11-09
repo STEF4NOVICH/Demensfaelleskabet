@@ -1,3 +1,5 @@
+// Credit to Walter Guevara //
+
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 var startYear = 2000;
 var endYear = 2020;
